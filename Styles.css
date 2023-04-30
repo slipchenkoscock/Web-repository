@@ -1,0 +1,420 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+body {
+  background: white;
+}
+header {
+    display: flex;
+    position: fixed;
+    flex-wrap: wrap;
+    height: 100px;
+    width: 100%;
+    background-color: black;
+    z-index: 3;
+    margin-top: 0px;
+}
+
+container {
+  margin-top: 2%;
+  flex-wrap: wrap;
+  flex-direction: row;
+  width: 100%;
+  height: 10%;
+  display: flex;
+  justify-content: space-around;
+}
+
+main_name {
+  width: 300px;
+  height: 50px;
+}
+
+transfers {
+  width: 500px;
+  height: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+
+}
+
+item {
+  width: 100px;
+  height: 80%;
+
+}
+
+name {
+  margin-top: 20%;
+  font-size: 1.2em;
+  color: white;
+  border: 2px solid black;
+}
+
+name:hover {
+  border-color: black black red black;
+  transition-duration: 0.5s;
+  cursor: pointer;
+}
+
+vk {
+  width: 100px;
+  height: 50px;
+}
+
+
+.NoTy {
+    height: 40%;
+    width: 80%;
+    position: absolute;
+    border: 2px solid black;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    top: 100px;
+}
+
+Noty_name {
+  position: absolute;
+  height: 40%;
+  width: 70%;
+  border: 2px solid black;
+  font-size: 25%;
+}
+
+.center {
+  margin: 0 auto;
+  max-width: 1500px;
+  height: 4800px;
+  border: 2px solid white;
+  margin-top: 0%;
+}
+
+.present {
+  margin: 0 auto;
+  max-width: 1300px;
+  height: 400px;
+  margin-top: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}    
+
+.item {
+    width: 450px;
+    height: 450px;
+}
+
+.button {
+    position: relative;
+    width: 200px;
+    height: 50px;
+    border: 2px solid black;
+    top: 50px;
+    left: 5%;
+    text-align: center;
+    font-size: 200%;
+
+}
+
+
+shop {
+    position: relative;
+    font-size: 60px;
+    margin-left: 80px;
+    top: 250px;
+    border: 5px solid;
+    border-color:  white white white black;
+}
+
+.shopcontainer {
+    position: relative;
+    margin: 0 auto;
+    top: 450px;
+    width: 90%;
+    height: 450px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+.product {
+    width: 320px;
+    height: 500px;
+}
+
+photo {
+    position: absolute;
+    margin: 0 auto;
+    width: 250px;
+    height: 300px;
+    background-color: lime;
+}
+
+buyname {
+    padding-left: 15px;
+    position: relative;
+    margin: 0 auto;
+    top: 350px;
+    width: 250px;
+    height: 25px;
+    font-size: 25px;
+}
+
+
+
+price{
+    padding-left: 15px;
+    position: relative;
+    margin: 0 auto;
+    top: 370px;
+    width: 150px;
+    height: 25px;
+    font-size: 20px;
+}
+
+buybutton {
+    left: 30px;
+    position: relative;
+    margin: 0 auto;
+    top: 430px;
+    width: 120px;
+    height: 50px;
+    font-size: 25px;
+    border: 3px solid black;
+    text-align: center;
+    font-size: 200%;
+}
+
+kost {
+    visibility: hidden;
+}
+
+
+
+music {
+    position: relative;
+    font-size: 60px;
+    margin-left: 80px;
+    top: 850px;
+    border: 5px solid;
+    border-color:  white white white black;
+}
+
+musical {
+    position: relative;
+    margin: 0 auto;
+    top: 900px;
+    width: 90%;
+    height: 2500px;
+    border: 2px solid white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.album {
+    width: 400px;
+    height: 600px; 
+}
+
+picture {
+    position: relative;
+    display: block;
+    width: 400px;
+    height: 400px;
+    background-color: lime;
+}
+
+nam {
+    position: relative;
+    margin-top: 25px;
+    display: block;
+    width: 400px;
+    height: 50px;
+    font-size: 35px;
+}
+
+.album .button2 {
+    position: relative;
+    margin-top: 20px;
+    display: block;
+    width: 200px;
+    height: 50px;
+    border: 2px solid black;
+    text-align: center;
+    font-size: 200%;
+
+}
+/*
+.footer {
+    background-color: black;
+    margin: 0 auto;
+    max-width: 200%;
+    height: 400px;
+    border: 2px solid black;
+    margin-top: 0%;
+    flex-wrap: wrap;
+    flex-direction: row;
+    display: flex;
+    justify-content: center;    
+}
+
+.footercontainer {
+    wwidth: 320px;
+    height: 500px;
+    background-color: lime;
+    z-index: 2;
+
+}*/
+
+.footer {
+    position: relative;
+    margin: 0 auto;
+    margin-top: 0%;
+    max-width: 200%;
+    height: 400px;
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.object {
+    width: 250px;
+    height: 300px;
+}
+
+main_name2 {
+    position: absolute;
+    width: 300px;
+    height: 50px;
+    top: 150px;
+
+}
+
+
+.big {
+    position: relative;
+    font-size: 20px;
+    margin: 0 auto;
+    margin-top: 60px;
+    text-align: center;
+    color: gray;
+}
+
+.f_text {
+    position: relative;
+    margin-top: 20px;
+    text-align: center;
+    color: white;
+}
+
+.f_text_orange {
+    position: relative;
+    margin-top: 20px;
+    text-align: center;
+    color: orange;
+}
+
+
+@media (max-width: 1444px) {
+    .shopcontainer {
+        height: 950px;
+    }
+
+    .center {
+        height: 5200px;
+    }
+
+}
+
+@media (max-width: 1380px) {
+    .center {
+        height: 6400px;
+    }
+
+@media (max-width: 1200px) {
+
+    .center {
+        width: 900px;
+        height: 6500px;
+    }
+
+    .present {
+        width: 800px;
+    }
+
+    .button {
+        top: 500px;
+    }
+    shop {
+        top: 700px;
+    }
+    .shopcontainer {
+        top: 750px;
+    }
+    .footer{
+        height: 800px;
+    }
+
+@media (max-width: 920px) {
+
+    .center {
+        width: 750px;
+    }
+
+    .present {
+        width: 600px;
+    }
+    music {
+        top: 950px;
+    }
+
+    musical {
+        top: 1000px;
+    }
+}
+@media (max-width: 770px) {
+
+    .center {
+        width: 500px;
+        height: 11000px;
+    }
+    .present {
+        width: 500px;
+    }
+    .shopcontainer {
+        height: 1850px;
+    }
+}
+
+@media (max-width: 902px) {
+  header {
+    height: 15%;
+  }
+}
+
+@media (max-width: 630px) {
+  vk {
+    visibility: hidden;
+  }
+}
+@media (max-width: 602px) {
+  header {
+    height: 20%;
+  }
+  .footer {
+    height: 1400px;
+  }
+}
+@media (max-width: 200px) {
+  header {
+    height: 25%;
+  }
+}
+
+
