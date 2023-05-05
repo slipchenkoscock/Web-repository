@@ -8,13 +8,22 @@ body {
 }
 
 .contacts {
-  position: absolute;
-  margin: 0 auto;
+  margin-top: 0px;
   height: 50px;
-  width: 100%;
+  width: 1920px;
   background: rgb(131,58,180);
   background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(122,35,164,1) 0%, rgba(124,37,163,1) 44%, rgba(252,176,69,1) 100%);
 
+
+}
+
+
+.contacts_small {
+  margin: 0 auto;
+  height: 50px;
+  width: 1400px;
+  background-color: pink;
+  
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
@@ -28,11 +37,14 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
+
+  border: 2px solid black;
 }
 
 .shows {
   width: 250px;
   height: 100%;
+  border: 2px solid black;
   display: flex;
   flex-wrap: nowrap;
   justify-content: center;
@@ -43,6 +55,8 @@ body {
   width: 40px;
   height: 40px;
   background-color: yellow;
+
+  border: 2px solid black;
   
 }
 
@@ -52,6 +66,8 @@ body {
   height: 100%;
   padding: 10px;
 
+  border: 2px solid black;
+
 }
 
 t {
@@ -60,26 +76,56 @@ t {
   
 }
 
+
 .scroll {
-  margin: 0 auto;
-  margin-top: 50px;
-  height: 100px;
   width: 100%;
-  background-color: black;
-  position: fixed;
+  height: 4000px;
+}
+
+.scroll_block {
+  position: sticky;
+  top: 0px;
+  width: 100%;
+  height: 100px;
+  background-color: white;
+
+  border: 2px solid black;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
 
 
-@media (max-width: 1200px) {
-  .contacts {
-    position: absolute;
-    height: 100px;
+.firma_name {
+  margin-top: 30px;
+  width: 200px;
+  height: 40px;
+  background-color: red;
+}
+
+
+@media (max-width: 1230px) {
+  .name {
+    display: none;
+  }
+
+  .shows {
+    width: 50px;
+  }
+
+  .contacts_small {
+    width: 700px;
+  }
+
+  .numbers {
+    width: 200px;
   }
 }
 
-@media (max-width: 500px) {
-  .contacts {
-    position: absolute;
-    height: 180px;
+@media (max-width: 720px) {
+  .contacts_small {
+    width: 500px;
   }
 }
+
