@@ -68,18 +68,6 @@ t {
   
 }
 
-@media (max-width: 1100px) {
-  .name {
-    display: none;
-  }
-  .shows {
-    width: 50px;
-  }
-  .contacts_small {
-    width: 80%;
-  }
-}
-
 .scroll {
   width: 100%;
   height: 4000px;
@@ -92,8 +80,6 @@ t {
   height: 100px;
   background-color: white;
 
-  border: 2px solid black;
-
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
@@ -102,8 +88,72 @@ t {
 .inside {
   width: 1100px;
   height: 100%;
-  background-color: pink;
+  margin: 0 auto;
 }
+
+.name_firma {
+  margin-top: 30px;
+  float: left;
+  width: 120px;
+  height: 50px;
+}
+
+f_t {
+  font-size: 25px;
+  color: black;
+}
+
+
+.name_firma > f_t{
+  color: #ff8b00;
+  font-weight: 900;
+}
+.menu {
+  margin-top: 30px;
+  float: right;
+  width: 800px;
+  height: 50px;
+
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: nowrap;
+}
+
+
+ul > li {
+  width: 150px;
+  height: 50px;
+  list-style-type: none;
+  text-align: center;
+
+}
+
+@media (max-width: 1100px) {
+  .name {
+    display: none;
+  }
+  .shows {
+    width: 50px;
+  }
+  .contacts_small {
+    width: 80%;
+  }
+  .inside {
+    width: 80%;
+  }
+  .menu {
+    display: none;
+  }
+  .second_menu {
+    margin-top: 30px;
+    float: right;
+    width: 50px;
+    height: 50px;
+    background-color: yellow; 
+  }
+}
+
+
 
 
 /*
