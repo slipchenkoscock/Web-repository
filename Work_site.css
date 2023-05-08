@@ -137,7 +137,6 @@ ul > li {
   width: 120px;
   height: 30px;
   margin-top: 5px;
-  border: 2px solid black;
   text-align: center;
   
 }
@@ -147,48 +146,51 @@ ul > li {
 }
 
 
+
+
 f_t:hover {
   color: #ff8b00;
   transition-duration: 0.5s;
   cursor: pointer;
 }
 
-.horizontal ul li{
-  border: 2px solid black;
-  display: block;
-}
 
 .horizontal {
   margin-top: 60px;
   float: right;
-  width: 200px;
-  height: 500px;
-  border: 2px solid black;
-
+  width: 150px;
+  height: 300px;
+  margin-right: 0px;
   display: flex;
   flex-wrap: wrap;
 
 }
 
-.second_menu .horizontal li {
-  width: 200px;
-  height: 50px;
-  border: 2px solid black;
 
-  text-align: center;
-}
-
-
-
-.hidden {
+.second_menu .horizontal {
   display: none;
 }
 
-x:hover .hidden{
-  display: initial;
-  
+
+.contactive .down_menu li{
+  width: 70px;
+  height: 15px;
+  margin-top: 0px;
+  margin-left: 100px;
+  text-align: center;
+  color: #ff8b00;
+  opacity: 10;
 }
 
+
+
+
+.second_menu .horizontal li:hover .down_menu {
+  display: initial;
+  z-index: 3;
+}
+
+/*Вверху все работает! Не трогай!*/
 
 @media (max-width: 1100px) {
   .name {
@@ -213,34 +215,9 @@ x:hover .hidden{
     height: 50px;
     background-color: yellow; 
   }
-}
 
-
-
-
-/*
-@media (max-width: 1230px) {
-  .name {
-    display: none;
-  }
-
-  .shows {
-    width: 50px;
-  }
-
-  .contacts_small {
-    width: 700px;
-  }
-
-  .numbers {
-    width: 200px;
+  .second_menu:hover .horizontal {
+    display: initial;
   }
 }
 
-@media (max-width: 720px) {
-  .contacts_small {
-    width: 500px;
-  }
-}
-
-*/
