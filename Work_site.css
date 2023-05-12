@@ -138,6 +138,19 @@ ul > li {
   height: 30px;
   margin-top: 5px;
   text-align: center;
+  background-color: white;
+  border: 2px solid black;
+  
+}
+
+
+.second_menu li{
+  width: 150px;
+  height: 30px;
+  margin-top: 5px;
+  text-align: center;
+  background-color: white;
+  border: 2px solid black;
   
 }
 
@@ -192,6 +205,10 @@ f_t:hover {
 
 /*Вверху все работает! Не трогай!*/
 
+
+.hdn {
+  display: none;
+}
 
 #slider {
   margin: auto;
@@ -354,6 +371,10 @@ f_t:hover {
     float: right;
     width: 50px;
     height: 50px; 
+  }
+
+  .hdn {
+    display: initial;
   }
 
   .second_menu:hover .horizontal {
