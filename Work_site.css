@@ -356,7 +356,6 @@ f_t:hover {
   margin: 0 auto;
   width: 100%;
   height: 1700px;
-  border: 2px solid black;
   margin-top: 850px;
 
 
@@ -435,11 +434,74 @@ txt {
   font-size: 25px;
 }
 
+
+.Grayblock {
+  width: 100%;
+  height: 600px;
+  margin-top: 50px;
+  background-color: #f8f9fa;
+}
+
+.Grayinside {
+  margin: 0 auto;
+  margin-top: 100px;
+
+  height: 70%;
+  width: 80%;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-box {
+  width: 400px;
+  height: 200px;
+}
+
+.maining_image {
+  height: 50px;
+  width: 50px;
+  margin-top: 0px;
+  margin-left: 20px;
+}
+
+.flex-box h2 {
+  margin-top: 10px;
+  margin-left: 20px;
+
+  color: black;
+}
+
+.flex-box p {
+  margin-top: 10px;
+  margin-left: 20px;
+  font-size: 20px; 
+
+  opacity: 0.6;
+}
+
+
+@media (max-width: 1500px) {
+  .Grayinside {
+    height: 70%;
+    width: 100%;
+  }
+}
+
 @media (max-width: 1300px) {
   .Container_images {
     height: 3600px;
-  }  
+  } 
 }
+
+@media (max-width: 1200px) {
+  .Grayblock {
+    height: 800px;
+  }
+}
+
 
 @media (max-width: 1100px) {
   .name {
@@ -486,6 +548,14 @@ txt {
 
 }
 
+@media (max-width: 800px) {
+  .Grayblock {
+    height: 1300px;
+  }  
+}
+
+
+
 
 @media (max-width: 650px) {
   .image {
@@ -504,6 +574,10 @@ txt {
 
   .Container_images {
     height: 1800px;
+  }  
+
+  .Grayblock {
+    margin-top: 1700px;
   }  
 }
 
@@ -524,6 +598,10 @@ txt {
   .image {
     height: 500px;
   }
+
+  .Grayblock {
+    margin-top: 1400px;
+  }  
 }
 @media (max-width: 360px) {
   .galki {
@@ -532,5 +610,7 @@ txt {
   .text_images {
     height: 900px;
   }
-
+  .Grayblock {
+    margin-top: 900px;
+  }  
 }
