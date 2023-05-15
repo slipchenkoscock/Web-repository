@@ -482,6 +482,40 @@ txt {
   opacity: 0.6;
 }
 
+.DarkGrayblock {
+  width: 100%;
+  height: 900px;
+  margin-top: 0px;
+  background-color: #444d4d; 
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.movie {
+  width: 50%;
+  height: auto;
+}
+
+.NumbersBlock {
+  width: 80%;
+  height: 250px;
+  background-color: red;
+
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+
+.number_container {
+  width: 350px;
+  height: 250px;
+  background-color: black;
+  border: 2px solid white;
+}
 
 @media (max-width: 1500px) {
   .Grayinside {
@@ -569,7 +603,6 @@ txt {
     height: 60%;
     background: white;
     display: block;
-    border: 2px solid black;
   }
 
   .Container_images {
