@@ -515,12 +515,68 @@ txt {
   height: 250px;
   background-color: black;
   border: 2px solid white;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
 }
+
+.Main_number {
+  width: 350px;
+  height: 120px;
+  background-color: red;
+
+  text-align: center;
+  font-size: 6rem;
+}
+
+.description {
+  width: 250px;
+  height: 50px;
+  background-color: red;
+
+  text-align: center;
+  font-size: 20px;
+}
+
+@media (max-width: 1770px) {
+  .NumbersBlock {
+    width: 100%;
+  }
+
+} 
 
 @media (max-width: 1500px) {
   .Grayinside {
     height: 70%;
     width: 100%;
+  }
+  .movie {
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media (max-width: 1416px) {
+  .DarkGrayblock {
+    height: 1500px;
+  }
+
+  .number_container {
+    width: 650px;
+    height: 250px;
+    background-color: black;
+    border: 2px solid white;
+
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .NumbersBlock {
+    height: 550px;
+    margin-top: 0px;
+    justify-content: center;
   }
 }
 
@@ -528,6 +584,9 @@ txt {
   .Container_images {
     height: 3600px;
   } 
+  .number_container {
+    width: 450px;
+  }  
 }
 
 @media (max-width: 1200px) {
@@ -582,10 +641,26 @@ txt {
 
 }
 
+@media (max-width: 1100px) {
+  .NumbersBlock {
+    height: 550px;
+    margin-top: -200px;
+    justify-content: center;
+  }  
+}  
+
+@media (max-width: 909px) {
+  .NumbersBlock {
+    height: 550px;
+    margin-top: -200px;
+    justify-content: center;
+    align-self: start;
+  }  
+}
 @media (max-width: 800px) {
   .Grayblock {
     height: 1300px;
-  }  
+  }
 }
 
 
@@ -611,7 +686,12 @@ txt {
 
   .Grayblock {
     margin-top: 1700px;
-  }  
+  }
+  
+
+  .movie {
+    align-self: start;
+  }    
 }
 
 
@@ -625,6 +705,9 @@ txt {
   .Container_images {
     margin-top: 350px;
   }
+  .number_container {
+    width: 350px;
+  }
 
 }
 @media (max-width: 400px) {
@@ -635,6 +718,9 @@ txt {
   .Grayblock {
     margin-top: 1400px;
   }  
+  .number_container {
+    width: 250px;
+  }
 }
 @media (max-width: 360px) {
   .galki {
