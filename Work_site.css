@@ -84,7 +84,7 @@ t {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  z-index: 1;
+  z-index: 3;
 }
 
 .inside {
@@ -544,8 +544,6 @@ txt {
   width: 100%;
   height: 1300px;
   margin-top: 0px;
-  background-color: black; 
-
 }
 
 .Wordblock {
@@ -554,15 +552,14 @@ txt {
   padding-top: 80px;
 
   height: 250px;
-  width: 550px;
+  max-width: 550px;
+  width: 100%;
 }
 
 .outeam {
   margin: 0 auto;
   margin-top: 30px;
-  width: 60%;
-  height: 70px;
-
+  width: 60%;;
   text-align: center;
   font-size: 54px;
   color: #ff8b00;
@@ -571,8 +568,6 @@ txt {
 .outeam2 {
   margin: 0 auto;
   margin-top: 20px;
-  width: 100%;
-  height: 100px;
 
   text-align: center;
   font-size: 24px;
@@ -586,26 +581,83 @@ txt {
   margin-top: 50px;
 
   height: 750px;
-  width: 80%; 
-
+  width: 100%;
+  max-width: 1800px; 
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: center;
 }
 
 .people {
-  background-color: red;
   width: 450px;
   height: 300px;
+  transition: 0.4s;
+  background-color: white;
+  border: 3px solid gray;
 }
 
 .people:hover {
-  transform: translateY(-10px);
-  transition: 0.2s;
-  box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.5);
-
+  margin-top: -20px;
+  box-shadow: 0 15px 30px 10px rgba(0, 0, 0, .5);
+  z-index: 2;
 }
 
+.circle {
+  height: 140px;
+  width: 140px;
+  background-color: #bbb;
+  border-radius: 50%;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+
+.sername {
+  height: 30px;
+  width: 200px;
+  margin: 0 auto;
+  margin-top: 20px;
+
+  text-align: center;
+  font-size: 25px;
+}
+
+.job {
+  height: 30px;
+  width: 150px;
+  margin: 0 auto;
+  margin-top: 5px;
+
+  text-align: center;
+  font-size: 15px;
+  opacity: 0.6;
+}
+
+.linkbuttons {
+  height: 40px;
+  width: 150px;
+  margin: 0 auto;
+  margin-top: 20px;
+
+  display: flex;
+  justify-content: space-around;
+}
+
+.link {
+  height: 40px;
+  width: 40px;
+  border-radius: 10px;
+  border: 2px solid #ff8b00;
+
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.link:hover {
+  background-color: #ff8b00;
+}
 
 @media (max-width: 1770px) {
   .NumbersBlock {
@@ -695,7 +747,7 @@ txt {
     display: initial;
   }
 
-  #slider {7
+  #slider {
     width: 90%;
   }
 
@@ -791,6 +843,7 @@ txt {
   }
 
 }
+
 @media (max-width: 400px) {
   .image {
     height: 500px;
@@ -803,6 +856,12 @@ txt {
     width: 250px;
   }
 }
+
+@media (max-width: 385px) {
+  .Peopleblock {
+    margin-top: 100px;
+  }
+}
 @media (max-width: 360px) {
   .galki {
     display: none;
@@ -813,4 +872,5 @@ txt {
   .Grayblock {
     margin-top: 900px;
   }  
+
 }
