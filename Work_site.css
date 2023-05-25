@@ -70,7 +70,7 @@ t {
 
 .scroll {
   width: 100%;
-  height: 8000px;
+  height: 12000px;
 }
 
 .scroll_block {
@@ -815,7 +815,109 @@ btn-t {
   color: white;
 }
 
+.pricetexts {
+  width: 100%;
+  max-width: 600px;
+  margin-top: 100px;
 
+  color: #ff8b00;
+  text-align: center;
+}
+
+.pricetexts p-t {
+  font-size: 36px;
+}
+
+
+.Priceblock2 {
+  margin: 0px auto;
+  height: 1000px;
+  width: 100%;
+  max-width: 1920px;   
+  background-color: #f8f9fa;
+
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  flex-direction: column;
+}
+
+.questionsblock {
+  margin-top: 50px;
+  width: 80%;
+  height: 800px;
+
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+ 
+.question {
+  width: 550px;
+  height: 150px;
+} 
+
+q-text-main {
+  display: block;
+  margin: 20px auto;
+  font-size: 22px;
+}
+
+q-text-s {
+  display: block;
+  margin-top: 20px;
+  font-size: 16px;
+  opacity: 0.6;
+}
+
+.Priceblock3 {
+  margin: 0px auto;
+  height: 800px;
+  width: 100%;
+  max-width: 1920px;   
+  
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.justword {
+  width: 400px;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.justword q-text-main {
+  font-size: 54px;
+  color: #ff8b00;
+}
+
+.date-text {
+  width: 700px;
+  height: 650px;
+}
+
+.blk {
+  width: 90%;
+  height: 160px;
+  margin: 20px auto;
+}
+
+.blk .date {
+  opacity: 0.6;
+  font-size: 18px;
+}
+
+.blk h2 {
+  margin-top: 25px;
+}
+
+.blk p {
+  margin-top: 10px;
+  opacity: 0.6;
+}
 
 
 
@@ -879,6 +981,9 @@ btn-t {
     margin-top: 0px;
     justify-content: center;
   }
+  .questionsblock {
+    width: 100%;
+  }
 }
 
 @media (max-width: 1360px) {
@@ -905,6 +1010,11 @@ btn-t {
   }
 }
 
+@media (max-width: 1110px) {
+  .Priceblock2 {
+    height: 1500px;
+  }
+}
 
 @media (max-width: 1100px) {
   .name {
