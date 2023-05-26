@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
 * {
   margin: 0;
   padding: 0;
@@ -7,6 +8,7 @@ body {
   height: 4000px;
   max-width: 1920px;  
   margin: 0 auto;
+  /*font-family: 'Rubik', sans-serif;*/
 }
 
 .contacts {
@@ -1290,25 +1292,26 @@ footer {
   }
   .scroll {
     height: 18000px;
-  }   
-}
-
-@media (max-width: 760px) {
+  }
   footer {
     height: 900px;
     flex-direction: column;
-  }
+  }   
   .footer-block {
     align-self: center;
   }
+  .footer-block1 {
+    margin: 0 auto;
+  } 
 }
+
 
 @media (max-width: 700px) {
   .Priceblock4 {
     height: 2400px;
   }
   .scroll {
-    height: 19000px;
+    height: 18200px;
   } 
 }
 
