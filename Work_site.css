@@ -921,13 +921,16 @@ q-text-s {
 
 .Priceblock4 {
   margin: 0px auto;
-  height: 1200px;
+  height: 800px;
   width: 100%;
   max-width: 1920px;   
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
+  
   background-color: #f8f9fa;
+}
+
+.Priceblock4 p-t {
+  display: block;
+  margin: 0 auto;
 }
 
 .feedbackcontainer {
@@ -970,7 +973,7 @@ q-nm {
 
 .Priceblock5 {
   margin: 0px auto;
-  height: 1200px;
+  height: 900px;
   width: 100%;
   max-width: 1920px;   
   display: flex;
@@ -1030,9 +1033,60 @@ q-nm {
   font-size: 18px;
 }
 
+footer {
+  margin: 0px auto;
+  height: 450px;
+  width: 100%;
+  max-width: 1920px;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  color: white;
+}
 
+.footer-block {
+  width: 250px;
+  height: 400px;
+  text-align: center;
 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
 
+.footer-block h1 {
+  display: block;
+  font-size: 24px;
+}
+
+.footer-block p {
+  display: block;
+  margin-top: 30px;
+  font-size: 18px;  
+}
+
+.footer-block1 {
+  width: 250px;
+  height: 50px;
+
+  align-self: center;
+}
+
+.dw {
+  width: 250px;
+  height: 100px;
+  text-align: center;
+  font-size: 54px; 
+  color: #ff8b00;
+}
+
+.wqe {
+  display: block;
+  margin-top: 20px;
+  opacity: 0.6;
+}
 
 @media (max-width: 1770px) {
   .NumbersBlock {
@@ -1181,8 +1235,14 @@ q-nm {
 }  
 
 @media (max-width: 1061px) {
+  .feedbackcontainer {
+    height: 800px;
+    margin-top: 50px;
+  }
+}
+@media (max-width: 1050px) {
   .Priceblock4 {
-    height: 2500px;
+    height: 1700px;
   }
 }
 @media (max-width: 909px) {
@@ -1208,9 +1268,19 @@ q-nm {
   }  
 }
 
-@media (max-width: 707px) {
+@media (max-width: 760px) {
+  footer {
+    height: 900px;
+    flex-direction: column;
+  }
+  .footer-block {
+    align-self: center;
+  }
+}
+
+@media (max-width: 700px) {
   .Priceblock4 {
-    height: 4000px;
+    height: 2400px;
   }
 }
 
