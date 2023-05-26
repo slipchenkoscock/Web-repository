@@ -875,7 +875,6 @@ q-text-s {
   height: 800px;
   width: 100%;
   max-width: 1920px;   
-  
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -920,20 +919,116 @@ q-text-s {
 }
 
 
+.Priceblock4 {
+  margin: 0px auto;
+  height: 1200px;
+  width: 100%;
+  max-width: 1920px;   
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-color: #f8f9fa;
+}
+
+.feedbackcontainer {
+  margin: 0px auto;
+  width: 80%;
+  height: 700px;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;  
+}
+
+.feedback-el {
+  width: 450px;
+  height: 650px;
+}
+
+fb-text {
+  margin: 50px auto;
+  font-size: 28px;
+  display: block;
+  width: 70%;
+  text-align: center;
+
+}
+
+.feedback-el .circle {
+  width: 90px;
+  height: 90px;
+}
+
+q-nm {
+  margin: 30px auto;
+  font-size: 28px;
+  display: block;
+  width: 200px;
+  text-align: center;  
+}
 
 
+.Priceblock5 {
+  margin: 0px auto;
+  height: 1200px;
+  width: 100%;
+  max-width: 1920px;   
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-color: #f8f9fa;
+}
 
+.blogcont {
+  width: 100%;
+  height: 500px;
+  display: block;
+  margin-top: -200px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
 
+.block {
+  width: 600px;
+  height: 450px;
+  margin-right: 20px;
+  margin-left: 20px;
+}
 
+.pho-block {
+  background-color: orange;
+  width: 100%;
+  height: 200px;
+  margin: 0px auto;
+}
 
+.block h1 {
+  color: #ff8b00;
+  margin-top: 20px;
+}
 
+.yu {
+  margin-top: 10px;
+  opacity: 0.6;
+}
 
+.yu tr {
+  opacity: 1;
+}
 
+.baza {
+  margin-top: 20px;
+  font-size: 18px;
+  opacity: 0.6;
+}
 
-
-
-
-
+.fake_link {
+  margin-top: 50px;
+  color: #ff8b00;
+  font-size: 18px;
+}
 
 
 
@@ -943,8 +1038,14 @@ q-text-s {
   .NumbersBlock {
     width: 100%;
   }
-
 } 
+
+@media (max-width: 1688px) {
+  .feedback-el {
+    width: 350px;
+    height: 750px;
+  }
+}
 
 @media (max-width: 1500px) {
   .Grayinside {
@@ -959,6 +1060,9 @@ q-text-s {
     height: 1200px;
   }
   .Priceblock {
+    width: 100%;
+  }
+  .feedbackcontainer {
     width: 100%;
   }
 }
@@ -990,6 +1094,7 @@ q-text-s {
   .Peopleblock {
     height: 950px; 
   } 
+
 }
 
 @media (max-width: 1300px) {
@@ -999,6 +1104,12 @@ q-text-s {
   .number_container {
     width: 450px;
   }  
+}
+
+@media (max-width: 1280px) {
+  .Priceblock5 {
+    height: 1400px;
+  }
 }
 
 @media (max-width: 1200px) {
@@ -1069,6 +1180,11 @@ q-text-s {
   }  
 }  
 
+@media (max-width: 1061px) {
+  .Priceblock4 {
+    height: 2500px;
+  }
+}
 @media (max-width: 909px) {
   .NumbersBlock {
     height: 550px;
@@ -1092,7 +1208,11 @@ q-text-s {
   }  
 }
 
-
+@media (max-width: 707px) {
+  .Priceblock4 {
+    height: 4000px;
+  }
+}
 
 
 @media (max-width: 650px) {
